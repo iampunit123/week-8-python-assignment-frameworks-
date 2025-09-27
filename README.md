@@ -40,7 +40,7 @@ This project is part of the **Frameworks Assignment**. It uses the [CORD-19 data
 Clone the repository:
 
 ```bash
-git clone https://github.com/iampunit123/week-8-final-assignment-python.git
+git clone https://github.com/iampunit123/week-8-python-assignment-frameworks-.git
 cd Frameworks_Assignment
 ```
 
