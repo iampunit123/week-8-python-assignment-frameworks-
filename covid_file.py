@@ -1,4 +1,3 @@
-# covid_file.py
 # Step 1: Import libraries
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -25,9 +24,8 @@ print(df.isnull().sum().head(20))  # show missing counts for first 20 columns
 # Step 6: Basic statistics (only for numeric columns)
 print("\n--- Summary Statistics ---")
 print(df.describe())
-# ----------------------------
+
 # Step 3: Data Cleaning
-# ----------------------------
 
 # Keep only useful columns
 useful_cols = ["title", "abstract", "publish_time", "authors", "journal", "source_x"]
@@ -59,9 +57,7 @@ print(df.head())
 
 print("\n--- Dataset After Cleaning ---")
 print(df.info())
-# ----------------------------
 # Step 4: Enhanced Data Analysis & Visualization
-# ----------------------------
 import matplotlib.pyplot as plt
 import seaborn as sns
 from wordcloud import WordCloud
@@ -277,6 +273,7 @@ if __name__ == "__main__":
     create_all_visualizations(df)
 
     
+
 
 
 
